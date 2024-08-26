@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	:root {
+		--background: #fff;
+		--foreground: #000;
+
+		--muted: 210 40% 96.1%;
+		--muted-foreground: 215.4 16.3% 46.9%;
+
+		--popover: 0 0% 100%;
+		--popover-foreground: 222.2 84% 4.9%;
+
+		--card: #f3f3f3;
+		--card-foreground: #828282;
+
+		--border: #000;
+		--input: #00000000;
+
+		--primary: #000;
+		--primary-foreground: #d785a1;
+
+		--secondary: #1a1a1a;
+		--secondary-foreground: #474747;
+
+		--accent: #f10d48;
+		--accent-foreground: #fff;
+
+		--destructive: 0 84.2% 60.2%;
+		--destructive-foreground: 210 40% 98%;
+
+		--ring: #000;
+	}
+}
+
+@font-face {
+	font-family: 'Bebas Neue Cyrillic';
+	src: local('Bebas Neue Cyrillic Regular'),
+		local('Bebas-Neue-Cyrillic-Regular'),
+		url('BebasNeueCyrillic.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@layer base {
+	* {
+		@apply border-border;
+	}
+	body {
+		@apply bg-background text-foreground;
+		font-family: 'Roboto';
+	}
+}
+
+.font-accent {
+	font-family: 'Bebas Neue Cyrillic';
+}
+
+.overflow-hidden {
+	overflow: hidden !important;
+}
+
+p {
+	@apply text-base;
+}
+
+.my-grid {
+	display: grid;
+	column-gap: 56px;
+	grid-template-columns: repeat(12, 1fr);
+
+	@media (max-width: 768px) {
+		grid-template-columns: repeat(4, 1fr);
+	}
+}
+
+nav > .router-link-active {
+	position: relative;
+	&::before {
+		content: '';
+		position: absolute;
+		background-color: #000;
+		height: 2px;
+		width: 100%;
+		left: 0;
+		right: 0;
+		bottom: -6px;
+	}
+}
