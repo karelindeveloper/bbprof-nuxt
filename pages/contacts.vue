@@ -4,17 +4,17 @@
 		<div class='my-grid'>
 			<div class='col-span-4'>
 				<article class='py-8 px-16 bg-card flex flex-col gap-2'>
-					<span class='text-card-foreground'>Пункт выдачи</span>
+					<span class='text-card-foreground'>Магазин</span>
 					<address class=' not-italic'><span class='font-bold'>Челябинск, пр-т Ленина, 29 , офис 5 </span>
 						<br>
 						<span class='text-card-foreground'>
-							вход с ул. 3го
+							вход с ул. 3-го
 							Интернационала, серая
 							дверь сразу от угла дома, вывеска мед-партнер.рф</span>
 					</address>
-					<a class='text-primary-foreground' href="http://" target="_blank" rel="noopener noreferrer">BBProf.ru</a>
-					<a class='text-primary-foreground' href="mailto:partnerkom@bk.ru">partnerkom@bk.ru</a>
-					<a href="mailto:sale@partner-kom.ru">sale@partner-kom.ru</a>
+					<a class='text-accent-foreground' href="http://" target="_blank" rel="noopener noreferrer">BBProf.ru</a>
+					<a class='text-accent-foreground' href="mailto:partnerkom@bk.ru">partnerkom@bk.ru</a>
+					<a class='text-accent-foreground' href="mailto:sale@partner-kom.ru">sale@partner-kom.ru</a>
 					<a class='text-lg' href="tel:+79049711363">+7 (904) 971-13-63</a>
 					<a class='text-lg' href="tel:+79514773252">+7 (951) 477-32-52</a>
 				</article>

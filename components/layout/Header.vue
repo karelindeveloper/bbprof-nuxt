@@ -13,7 +13,7 @@
 					<NuxtLink to='/catalog'>Каталог</NuxtLink>
 					<NuxtLink to='/delivery'>Доставка и оплата</NuxtLink>
 					<NuxtLink to='/contacts'>Контакты</NuxtLink>
-					<NuxtLink to='/blog'>Блог</NuxtLink>
+					<NuxtLink to='/posts'>Блог</NuxtLink>
 				</nav>
 			</div>
 			<div class='flex gap-5 nav-icons'>
@@ -26,9 +26,9 @@
 				<NuxtLink to='/profile'>
 					<NuxtImg src='profile.svg' alt='Личный кабинет' width='24px' />
 				</NuxtLink>
-				<NuxtLink to='/basket'>
+				<button>
 					<NuxtImg src='basket.svg' alt='Корзина' width='24px' />
-				</NuxtLink>
+				</button>
 			</div>
 		</div>
 	</header>

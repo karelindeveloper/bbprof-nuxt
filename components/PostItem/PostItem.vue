@@ -1,5 +1,5 @@
 <template>
-	<NuxtLink to='/blog/1' class='col-span-4 hover:text-accent-foreground relative'>
+	<NuxtLink to='/posts/1' class='col-span-4 hover:text-accent-foreground relative'>
 		<NuxtImg class='mb-2 w-full' src='demo_post.png' alt='Фото к посту' />
 		<h3 class='text-xl mb-1'>Эксперт назвал способный удивить любую женщину цветок</h3>
 		<p class='line-clamp-3 text-card-foreground'>Протея — это тот цветок, который может вызвать умиление, восторг и

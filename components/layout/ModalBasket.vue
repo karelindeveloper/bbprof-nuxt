@@ -11,5 +11,8 @@
 			</li>
 		</ul>
 		<UiButton size='lg'>Оформить заказ</UiButton>
+		<UiButton class='absolute top-8 right-12 w-8 h-8' variant='destructive' size='icon'>
+			<NuxtImg class='w-full h-full' src='close_modal.svg' alt='Выйти' />
+		</UiButton>
 	</section>
 </template>
