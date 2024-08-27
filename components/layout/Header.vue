@@ -7,7 +7,7 @@
 		<div class='container flex items-center justify-between '>
 			<div class='flex items-center gap-12'>
 				<NuxtLink to='/'>
-					<NuxtImg src='logo.png' alt='' width='124px' />
+					<NuxtImg src='logo.png' alt='Логотип' width='124px' />
 				</NuxtLink>
 				<nav class='flex items-center gap-7'>
 					<NuxtLink to='/catalog'>Каталог</NuxtLink>

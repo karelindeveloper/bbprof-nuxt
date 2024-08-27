@@ -1,5 +1,5 @@
 <template>
-	<section style='min-height: 100vh;'>
+	<section class='relative' style='min-height: 100vh;'>
 		<LayoutHeader />
 		<div class='container'>
 			<slot />

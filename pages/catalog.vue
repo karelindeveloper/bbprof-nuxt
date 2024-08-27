@@ -1,3 +1,3 @@
 <template>
-	catalog
+	<ProductList />
 </template>
